@@ -1,4 +1,19 @@
-# OpenGL boilerplate
+# Jetpack Joyride
+
+## Build Instructions
+
+The Project is built using cmake. If you do not have cmake installed on your system -
+> sudo apt-get -y install cmake
+
+Once that is done, run the following commands in the Jetpack Joyride folder to start
+
+```shell
+cmake . ;
+make ;
+./app ;
+```
+
+After that, press Enter to start playing!
 
 ## Contents
 - glfw, glad and glm built from source in `libraries`
@@ -11,11 +26,16 @@
 
 - Utilised multiple game assets from the original jetpack joyride, gameassets2D.com, etc.
 
-### Build instructions 
+## Features Implemented
 
-- In Jetpack-joyride folder Do, `cmake . ; make ; ./app ;`
+- [x] Levels   
+- [x] Movement
+- [x] Zappers
+- [x] Coins
+- [x] HUD
+- [x] Special Effects (GLSL SlowStep)
 
-- Press Enter and start playing!
+
 
 
 
