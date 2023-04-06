@@ -33,7 +33,7 @@ After that, press Enter to start playing!
 - [x] Zappers
 - [x] Coins
 - [x] HUD
-- [x] Special Effects (GLSL SlowStep)
+- [ ] Special Effects (GLSL SlowStep)
 
 
 
